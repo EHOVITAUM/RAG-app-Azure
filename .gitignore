@@ -1,0 +1,5 @@
+*.env
+rag.ipynb
+1-pdf-ingestion-az-iadocintelligence/iteration_log.csv
+1-pdf-ingestion-az-iadocintelligence/iteration_log.pkl
+1-pdf-ingestion-az-iadocintelligence/logs-de-docs-processados.txt
