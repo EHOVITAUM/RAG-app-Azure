@@ -12,6 +12,12 @@ Abaixo, trago o desenho de uma arquitetura para IA generativa voltada para LLMs,
 
 ### sobre os arquivos:
 - **Modulo get_embeddings.py**: Instanciando cliente azure open ai e definindo função para gerar embeddings.
+Para utiliza-lo, use:
+
+```python
+from get_embeddings import get_embeddings
+get_embeddings('texto que deseja obter embeddings')
+```
 
 
 ![gen-ai-architecture](gen-ai-azure-architecture.png)
@@ -29,3 +35,8 @@ Above, I present a design for a generative AI architecture focused on LLMs, usin
 
 ### about the files:
 - **get_embeddings.py module**: Instantiating the azure open ai client and defining the function to generate embeddings.
+To use it, do:
+
+```python
+from get_embeddings import get_embeddings
+get_embeddings('text you want to get embeddings')
